@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Supermercado Aserrí - Inicio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container top">
+      <div class="logo">
+   <div class="mark">
+  <img src="/img/logo.jpeg" alt="Logo Supermercado Aserrí">
+</div>
+
+        <div>
+          <h1 class="brand">Supermercado Aserrí</h1>
+          <p class="tag">Productos frescos y servicio cercano</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#ofertas">Ofertas</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero container">
+      <div class="hero-left">
+        <h2>Bienvenidos a Supermercado Aserrí</h2>
+        <p>Calidad, precio justo y atención cercana. Explora nuestros productos y ofertas especiales.</p>
+        <a class="btn" href="#productos">Ver productos</a>
+      </div>
+      <div class="hero-right">
+        <div class="hero-box">
+  <img src="/img/supermercado.jpeg" alt="Supermercado Aserrí">
+</div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="productos" class="cards">
+      <article class="card">
+        <h3>Frutas y Verduras</h3>
+        <div class="product-grid">
+          <div class="product">
+            <img src="/img/manzanas.png" alt="Manzanas">
+            <p class="product-name">Manzanas</p>
+            <p class="price">₡1,200 / kg</p>
+          </div>
+          <div class="product">
+            <img src="/img/tomates.png" alt="Tomates">
+            <p class="product-name">Tomates</p>
+            <p class="price">₡900 / kg</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Lácteos</h3>
+        <div class="product-grid">
+          <div class="product">
+            <img src="/img/leche.png" alt="Leche">
+            <p class="product-name">Leche entera 1L</p>
+            <p class="price">₡1,000</p>
+          </div>
+          <div class="product">
+            <img src="/img/queso.png" alt="Queso">
+            <p class="product-name">Queso fresco</p>
+            <p class="price">₡2,500</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="ofertas" class="offers">
+      <div class="offer card">
+        <h4>Oferta de la semana</h4>
+        <p>Arroz 5 kg — ₡3,200</p>
+      </div>
+      <div class="offer card">
+        <h4>Descuento</h4>
+        <p>2x1 en pan artesanal (solo martes)</p>
+      </div>
+    </section>
+
+    <section id="nosotros" class="card">
+      <h3>Sobre nosotros</h3>
+      <p>Supermercado Aserrí es una empresa local comprometida con ofrecer productos frescos y de calidad a la comunidad. Nuestra misión es brindar atención personalizada y precios justos.</p>
+    </section>
+
+    <section id="contacto" class="card">
+      <h3>Contacto</h3>
+      <p>Dirección: Calle Principal, Aserrí</p>
+      <p>Teléfono: +506 2222-2222</p>
+      <p>Email: info@supermercadoaserri.cr</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Supermercado Aserrí — Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script>
+    // Pequeño script para año actual
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
